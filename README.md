@@ -64,5 +64,110 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Telda is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by sequoia-capital) and added to the network as a stub for full-pipeline profiling.
-- https://telda.app
+Telda is a fintech company offering a mobile-first payment card and app that enables users to send, receive, and spend money instantly. The platform integrates Apple Pay, supports biometric security, and provides real-time transaction notifications. Telda aims to simplify personal finance by allowing social payments with emojis and GIFs, categorizing spending, and offering zero-fee transfers. Backed by Sequoia Capital, Telda targets consumers seeking a seamless, low-cost digital banking experience.
+
+**Areas:** Company · Fintech · Payments · MobileApp · DigitalBanking
+
+## Telda on APIs.io
+
+Everything profiled for Telda is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/telda/](https://apis.io/providers/telda/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Telda API](https://apis.io/apis/telda/telda-api/) — Telda API as documented publicly: 177 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetOpportunitiesOpportunityPanelsPanelResponse](https://apis.io/schemas/telda/telda-get-opportunities-opportunity-panels-panel-response/)
+- [PostRequest](https://apis.io/schemas/telda/telda-post-request/)
+- [PostResponse](https://apis.io/schemas/telda/telda-post-response/)
+- [PostV1RequisitionsResponse](https://apis.io/schemas/telda/telda-post-v1-requisitions-response/)
+- [PostV1Uploads083D56Ef40C6483A955120Ece8C4E776ResumePdfReques](https://apis.io/schemas/telda/telda-post-v1-uploads083-d56-ef40-c6483-a955120-ece8-c4-e776-resume-pdf-reques/)
+- [PutV1RequisitionsD918C5E654Cf4247A0548A02D575B993Response](https://apis.io/schemas/telda/telda-put-v1-requisitions-d918-c5-e654-cf4247-a0548-a02-d575-b993-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Telda Context](https://apis.io/jsonld/telda/telda-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Telda API Rules](https://apis.io/rules/telda/telda-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Telda Authentication](https://apis.io/security/telda/telda-authentication/)
+- [Telda Domain Security](https://apis.io/security/telda/telda-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://telda.app)
+- [Documentation](https://developer.lever.co/)
+- [Terms of service](https://telda.app/legal/terms)
+- [Privacy policy](https://telda.app/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 34.1** — thin · rubric 0.24.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 35.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 31.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/telda/](https://apis.io/providers/telda/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Telda: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/telda/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
